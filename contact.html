@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="ahmed tarek mohamed">
+    <meta name="description" content="contact us">
+    <title>contact us</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <caption><h1>welcom to the taco shop</h1></caption>
+        <nav>
+            <ul>
+                <li>
+                    <!--(#)to tenade 3ala el section ele esmo about-->
+                    <a href="index.html#about" >About <abbr title="the little taco shop">LTS</abbr></a>
+                    
+                </li>
+                <li>
+                    <a href="index.html#menu" title="the menu">menu</a>
+                    
+                </li>
+                <li>
+                    <a href="hours.html"  title="the store hours">hours</a>
+                    
+                </li>
+                <li>
+                    <a href="index.html"  title="the home">home</a>
+                    
+                </li>
+            </ul>
+        </nav>
+        <figure>
+            <figcaption>
+                <b id="figtr">this is the taco :)</b>
+            </figcaption>
+            <img id="img" src="tacopic/istockphoto-1822247032-1024x1024.jpg" title="contact pic" alt="the tacooo" width="400" height="267">
+        </figure>
+    </header>
+<hr>
+<main><!--body-->
+    <h2>our contact form</h2>
+    <form action="https://httpbin.org/get" method="get">
+        <fieldset class="fieldset" >
+            <!--should be legend to be in the miidle of the 5at -->
+            <legend>send us message</legend>
+            <div>
+                <label for="name">name</label>
+                <input type="text" name="urname" id="name" placeholder="ur name" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">email</label>
+                <input type="uremail" name="uremail" id="email" placeholder="ur email" required>
+            </div>
+            <br>
+            <div>
+            <label for="textarea">ur message</label>
+            <br>
+            <textarea id="text" placeholder="your message" cols="30" rows="10" name="text"></textarea>
+            </div>
+        </fieldset>
+        <button type="submit">submit</button>
+        <button type="reset">reset
+        </button>
+    </form>
+    <h2>location</h2>
+    <address>aswan stadium
+        <br>
+        phone: <a href="tel+123456788901038746">6372181927</a>
+    </address>
+</main>
+<a href="#">Back to top</a>
+<hr>
+<footer>
+    <b>copy right &copy; the taco shop</b>
+</footer>
+</body>
+</html>
